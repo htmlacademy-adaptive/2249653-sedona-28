@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Форма отзыва: Седона</title>
+</head>
+
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img class="main-header__logo-image" src="img/logo.svg" width="185" height="96" alt="Седона">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item">
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              Фото и видео
+            </a>
+          </li>
+          <li class="site-list__item site-list__item--active">
+            <a href="#">
+              Форма отзыва
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              HTML Academy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main-container">
+    <h1 class="visually-hidden">Гостиницы в Седоне.</h1>
+
+    <section class="hero">
+      <div class="hero__wrapper">
+        <h2 class="visually-hidden">Прекрасные горы Седоны</h2>
+        <img class="hero__hero-image" src="img/form/form-hero.jpg" width="320" height="158"
+          alt="Прекрасные горы Седоны.">
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="review__wrapper">
+        <header class="review__header">
+          <h2 class="visually-hidden">
+            Оставьте отзыв.
+          </h2>
+          <p class="review__title title">
+            Оставьте свой отзыв
+          </p>
+          <p class="review__description description">
+            Помогите нашим отелям стать лучше!<br> Оставьте отзыв о них, а также о<br> посещенных вами<br>
+            достопримечательностях
+          </p>
+        </header>
+      </div>
+    </section>
+
+    <section class="form-name">
+      <div class="form-name__wrapper">
+        <h2 class="visually-hidden">Заполните форму с вашими данными</h2>
+        <p class="form-name__title title">
+          Представьтесь:
+        </p>
+        <div class="form-name__wrap">
+          <h2 class="visually-hidden">Заполните имя</h2>
+          <div class="form-name__label">
+            <label class="label">Имя*:</label>
+          </div>
+          <div class="form-name__input">
+            <input type="text" value="Пётр">
+          </div>
+        </div>
+        <div class="form-name__wrap">
+          <h2 class="visually-hidden">Заполните фамилию</h2>
+          <div class="form-name__label">
+            <label class="label">Фамилия*:</label>
+          </div>
+        </div>
+        <div class="form-name__input">
+          <input type="text" value="Пустота">
+        </div>
+        <div class="form-name__wrap">
+          <h2 class="visually-hidden">Заполните отчество</h2>
+          <div class="form-name__label">
+            <label class="label">Отчество:</label>
+          </div>
+          <div class="form-name__input">
+            <input type="text" value="Викторович">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-contacts">
+      <div class="form-contacts__wrapper">
+        <h2 class="visually-hidden">Заполните форму с контактами</h2>
+        <p class="form-contacts__title title">
+          Контактная информация:
+        </p>
+        <div class="form-contacts__wrap">
+          <h2 class="visually-hidden">Заполните телефон</h2>
+          <div class="form-contacts__label">
+            <label class="label">Контактный телефон*:</label>
+          </div>
+          <div class="form-contacts__input-contacts">
+            <input type="submit" value="Введите телефон">
+          </div>
+          <div class="form-contacts__button">
+            <img class="button button--phone" src="img/form/phone.svg" width="18" height="18" alt="Телефон">
+          </div>
+        </div>
+        <div class="form-contacts__wrap">
+          <h2 class="visually-hidden">Заполните e-mail</h2>
+          <div class="form-contacts__label">
+            <label class="label">Электронная почта*:</label>
+          </div>
+          <div class="form-contacts__input-contacts">
+            <input type="text" value="Введите e-mail">
+          </div>
+          <div class="form-contacts__button">
+            <img class="button button--mail" src="img/form/mail.svg" width="18" height="18" alt="Электронная почта">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-impression">
+      <div class="form-impression__wrapper">
+        <h2 class="visually-hidden">Заполните форму с впечатлениями</h2>
+        <p class="form-impression__title title">
+          Ваше общее впечатление:
+        </p>
+      </div>
+
+      <div class="form-impression__input">
+        <div class="radio radio--vertical">
+          <label for="positive" class="radio__cont">
+            <input type="radio" class="radio__inp" id="positive" name="raduo-group" checked>
+            <span class="radio__label">Скорее положительное</span>
+          </label>
+        </div>
+
+        <div class="radio radio--vertical">
+          <label for="negative" class="radio__impression">
+            <input type="radio" class="radio__input" id="negative" name="raduo-group">
+            <span class="radio__label">Скорее отрицательное</span>
+          </label>
+        </div>
+
+        <div class="radio radio--vertical">
+          <label for="no-answer" class="radio__cont">
+            <input type="radio" class="radio__inp" id="no-answer" name="raduo-group">
+            <span class="radio__label">Затрудняюсь ответить</span>
+          </label>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="form-attractions">
+      <div class="form-attractions__wrapper">
+        <h2 class="visually-hidden">Заполните форму с достопримечательностями</h2>
+      </div>
+
+      <div class="checkbox checkbox--vertical">
+        <label class="checkbox__cont" for="bridge">
+          <input class="checkbox__inp" type="checkbox" id="bridge" checked>
+          <span class="checkbox__label">Мост дьявола</span>
+        </label>
+      </div>
+
+      <div class="checkbox checkbox--vertical">
+        <label class="checkbox__cont" for="mountain">
+          <input class="checkbox__inp" type="checkbox" id="mountain" checked>
+          <span class="checkbox__label">Гора-Колокол</span>
+        </label>
+      </div>
+
+      <div class="checkbox checkbox--vertical">
+        <label class="checkbox__cont" for="park">
+          <input class="checkbox__inp" type="checkbox" id="park" checked>
+          <span class="checkbox__label">Гора-Колокол</span>
+        </label>
+      </div>
+
+      <div class="checkbox checkbox--vertical">
+        <label class="checkbox__cont" for="rocks">
+          <input class="checkbox__inp" type="checkbox" id="rocks">
+          <span class="checkbox__label">Красные скалы</span>
+        </label>
+      </div>
+    </section>
+
+    <section class="form-emotions">
+      <div class="form-emotions__wrapper">
+        <p class="form-emotions__title title">
+          Опишите свои эмоции:
+        </p>
+      </div>
+
+      <div class="form-emotions__wrap">
+        <h2 class="visually-hidden">Заполните форму с эмоциями от посещения</h2>
+        <div class="form-emotions__input">
+          <input type="text" value="Опишите подробно все свои восторги">
+        </div>
+      </div>
+
+      <div class="form-emotions__button-review">
+        <h2 class="visually-hidden">
+          Отставьте отзыв
+        </h2>
+        <a class="button-review button" href="#">Оставить отзыв</a>
+        <p class="description-review description">
+          * — обязательные поля
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
+      <div class="main-footer__contacts contacts">
+        <a class="contacts__text" href="#">
+          <span class="contacts__link-text">#VisitSedona</span>
+        </a>
+      </div>
+      <div class="main-footer__social social">
+        <b class="social__title">Социальные сети</b>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в
+              Ютубе</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__copyright copyright">
+        <b class="copyright__text">Разработано:</b>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup-failure popup">
+    <h3 class="popup__title title">Что-то пошло не так!</h3>
+    <p class="popup__description description">Проверьте поля, выделенные<br> красным, скорее всего вы<br> забыли их
+      заполнить </p>
+    <a class="popup__button button" href="#">ОК</a>
+  </div>
+
+  <div class="popup-succes popup">
+    <h3 class="popup__title title">Ваш отзыв отправлен</h3>
+    <div class="popup__description description">Спасибо за ваше участие, ваш<br> отзыв уже поступил к нам<br> в
+      ближайшее
+      время мы<br> опубликуем его на сайте.</div>
+    <a class="popup__button button" href="#">Закрыть окно</a>
+  </div>
+
+</html>
